@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background:radial-gradient(goldenrod, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color:#fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+
+}
+.output{
+    height: 4rem;
+    width:100% !important;
+    text-align: right;
+    margin-bottom: 1rem;
+
+}
+.calculator::before{
+    content: "SINSS CALLCULATOR";
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1rem;
+    
+
+}
+.allbuttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px; 
+}
+button{
+    border: none;
+    padding: 2rem;
+    background-color: black;
+    color:#fff;
+    font-size: 1rem;
+    border-radius: 70%;
+}
+.equal{
+    background-color: blue;
+    border-radius: 70%;
+}
+input{
+    background-color: black;
+    color: #fff;
+    font-size: larger;
+    
+}
